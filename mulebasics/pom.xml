@@ -162,7 +162,29 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
+		<repository>
+  <id>API-NEWW</id>
+  <url>https://pkgs.dev.azure.com/niksoni/nikproject/_packaging/API-NEWW/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 	</repositories>
+	<distributionManagement>
+		<repository>
+  <id>API-NEWW</id>
+  <url>https://pkgs.dev.azure.com/niksoni/nikproject/_packaging/API-NEWW/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+		</distributionManagement>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>mulesoft-releases</id>
